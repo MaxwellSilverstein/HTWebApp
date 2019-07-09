@@ -1,2 +1,184 @@
- <title>Poop da poop</title> 
-<h1> Hello, World!</h1>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+      <title>Our First WebPage</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!-- Main style sheet-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- External tyle sheet for icons/buttons-->
+      <link rel="stylesheet" href="style/styling.css">  <!-- External tyle sheet for icons/buttons-->
+  </head>
+
+
+  <body> <!-- Start body of web page  -->
+
+    <header id="header"> <!-- header div object  -->
+      <img src = "https://pendulo.com/images/products/alternas/5060146590600_2.jpg" alt = "Logo" width=5% height=99% align = "left"> <!-- logo  -->
+        <li class="firstA"><b>Vacation Journal</b></li>
+          <div id = "optionsH"> <!-- insert the three options  -->
+              <ul id = "ulxx"> <!-- unsorted list  -->
+                <li class="firstH"><a>Upload Video</a></li> <!-- option 1  -->
+                <li class="secondH"><a>Add An Image</a></li> <!-- option 2 -->
+                <li class="thirdH"><a>Your Videos</a></li> <!-- option 3  -->
+                <li id = "register"><a>Register</a></li>
+                <li id="logIn"><a>Login</a></li>
+                <li  id= "logout" class="fourthH"><a>Logout</a></li> <!-- option 4 -->
+              </ul> <!-- end unsorted list  -->
+          </div> <!-- end options div object  -->
+     </header> <!-- end header div object  -->
+
+     <div id="body2">
+
+       <div id="searchEngine">
+     <form>
+           <button id="search" name="searchForm" type="submit">Search</button></br></br>
+           <input type="text" id="myName" placeholder="Search for name...">
+           <input type="text" id="myLocation" placeholder="Search for location...">
+         </form>
+    </div>
+       <div id="gallery">
+         <ul  id = 'slidesID' class="slides">
+                 <li class = "slide"><img id = "slide1" src="images/ritz.jpg" height = "99%" width = "95%"/></li>
+                 <li class = "slide"><img id = "slide1" src="images/sacha.jpg" height = "99%" width = "95%"/></li>
+                 <li class = "slide"><img id = "slide1" src="images/laArdosa.jpg"height = "99%" width = "95%"/></li>
+               </ul>
+               <div id= 'belowSet' class = "buttons">
+                     <button id = 'leftArrow' class="btn" > < </button>
+                     <p id = "galleryDescription">The Ritz hotel provides a luxurious experience</p>
+                     <button id = 'rightArrow' class="btn" > > </button>
+               </div>
+       </div>
+
+    
+
+
+     </div>
+
+    <div id="body"> <!-- start body div object  -->
+      <div id="leftBox"> <!-- start left box div object  -->
+        <img src = "https://www.tripsavvy.com/thmb/XN77_47-LyAdTUa2S4MOvWGpolw=/2126x1412/filters:fill(auto,1)/white_sand_beach-56d50c955f9b5879cc92cc5c.jpg" alt="Spongebob" width=70% align = "center"> <!-- insert profile picture  -->
+        <h4 align = "center"> iLuvTheBeach </h4> <!-- insert username  -->
+        <br>
+          <p1> <p id = "personalInformationButton">Personal Information</p> <!-- hyperlink to personal info   -->
+            <br>
+            <br>
+              <div id = "personalInfo"> <!-- start personal info div object  -->
+                <div id="personalInfoName" class= "noborder"></div> <!-- start of user's information  -->
+                <br>
+                <div id="personalInfoPlace" class= "noborder"></div>
+                <br>
+                <div id="personalInfoTime" class= "noborder">Member Since: 2010</div>
+                <br>
+              </div>
+
+              <hr> <!-- insert horizontal line  -->
+            </p1>
+            <p2> <p id="lastOpinionButton">Last Opinions </p> <!-- hyperlink to last opinions section  -->
+              <br>
+              <br>
+              <div id = "opinions">
+                <p id = "ritzButton"> <b>Hotel Ritz Madrid - Madrid, Spain</b></p> <!-- name of place 1  -->
+                <br>
+
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <p><img class='imgOpinion' src='images/ritz.jpg'>Name: Hotel Ritz Madrid<br>Address: Plaza de la Lealtad, 5, 28014 Madrid<br>Website: https://www.mandarinoriental.com/madrid/hotel-ritz/luxury-hotel <br>Telephone Number: (+34) 91 701 67 67 <br>Email: RZMAD-RESERVATIONS@MOHG.COM <br>Facebook: Hotel Ritz, Madrid<br>Price: At least 300 per night<br>Description: Set in a grand building built in 1910, this plush luxury hotel is a 4-minute walk from the Museo del Prado and 15 km from Madrid-Barajas Airport <br>Opinion: This is my favorite hotel in Madrid! The hotel restaurant is amazing I would definitely recommend trying the lobster! The location is perfect and is near many of the main tourist sights that you should see when you are in the city! It is a little expensive, but worth it!<br> <br></div></div>
+                  This is my favorite hotel in Madrid! The hotel restaurant is amazing - <!-- review of place 1  -->
+                  I would definitely recommend trying the lobster! The location is perfect
+                  and is near many of the main tourist sights that you should see when you
+                  are visiting the city! It is a little expensive, but worth it!
+                <br>
+                <br>
+                <p id = "ardosa"> <b>La Ardosa - Madrid, Spain</b></p> <!-- name of place 2  -->
+                <br>
+                <div id="ardosaM" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p><img class='imgOpinion' src='images/laArdosa.jpg'>Name: La Ardosa<br>Address: Calle de Colon, 13, 28004 Madrid<br>Website: http://www.laardosa.es/ <br>Telephone Number: (+34) 91 521 49 79 <br>Email: N/A <br>Facebook: Bodega La Ardosa<br>Price: $$-$$$ (Moderately Priced)<br>Description: They offer a wide variety of Irish beers at very reasonable prices, vermouth on tap, lagers, fine wines from La Ribera and Rioja. For snacks, they offer a variety of 'tapas', 'salmorejo' (a thick, cold tomato and garlic soup), cold meats, cured meat from Leon, duck ham and potato omelette, among other things. <br>Opinion: This is a great bodega in a busy and popular area of the city. It gets pretty crowded at night so I would recommend getting there early to secure a good seat. I heard that they are famous for their tortillas and they lived up to the expectation! Very fair pricing as well<br><br></div></div>
+                This is my favorite hotel in Madrid! The hotel restaurant is amazing - <!-- review of place 1  -->
+                I would definitely recommend trying the lobster! The location is perfect
+                and is near many of the main tourist sights that you should see when you
+                are visiting the city! It is a little expensive, but worth it!
+                <br>
+                <br>
+                <p id = "sacha"> <b>Sacha - Madrid, Spain</b></p> <!-- name of place 3  -->
+                <br>
+                <div id = "sachaM" class = "modal">
+                  <div class = "modal-content">
+                    <span class = "close">&times;</span>
+                    <p><img class = 'imgOpinion' src = 'images/sacha.jpg'>Name: Restaurante Sacha<br>Address: 11, Calle de Juan Hurtado de Mendoza, 28036 Madrid<br>Trip Advisor: https://www.tripadvisor.com/Restaurant_Review-g187514-d991775-Reviews-Sacha-Madrid.html <br>Telephone Number: (+34) 913 45 59 52 <br>Email: N/A <br>Facebook: Restaurante Sacha<br>Price: $$$$ (Expensive)<br>Description: Sacha, an old-school Spanish restaurant that was originally started by a couple who named the place after their only son. As luck would have it, Sacha is now the head chef and proprietor, helming a menu that has become a staple for Madrid foodies. The offerings here change seasonally, but the selection always has its foundation in traditional Spanish cuisine <br>Opinion: This is a top tier restaurant in Madrid. It is a very popular restaurant with the locals and there are not many tourists! They have a great wine list and every item on the menu has been carefully thought out. It is a
+                    little hard to find, but I will be back next time I am in Madrid! <br><br> </p></div></div>
+
+
+                  This is a top tier restaurant in Madrid. It is a very popular restaurant <!-- review of place 3  -->
+                  with the locals and there are not many tourists! They have a great wine
+                  list and every item on the menu has been carefully thought out. It is a
+                  little hard to find, but I will be back next time I am in Madrid!
+              </div> <!-- end div objct  -->
+              <hr> <!-- horizontal line  -->
+            </p2>
+            <p3 id = "preferencesAdded">
+              <b > My Preferences &nbsp &nbsp &nbsp</b> <!-- start of my preferences section  -->
+              <button id = "myPreferenceButton" type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-plus-sign"></span> <!-- plus arrow button  -->
+              </button>
+              <br>
+              <div id = "pref1"> Food <!-- preference 1  -->
+                <button class="btn" ><i class="fa fa-close" ></i></button> <!-- x button  -->
+              </div>
+              <br>
+              <div id = "pref2"> Vacation <!-- preference 2  -->
+                <button class="btn" ><i class="fa fa-close"></i></button> <!-- x button  -->
+              </div>
+              <br>
+              <div id = "pref3"> Relaxation <!-- preference 3  -->
+                <button class="btn" ><i class="fa fa-close"></i></button> <!-- x button  -->
+              </div>
+              <br>
+            </p3>
+        </div> <!-- end div object  -->
+
+
+        <div id="rightBox"> <h1>Personal Information</h1> <!-- beginning of right box personal information section  -->
+          <br><br>
+          <form> <!-- start of form object  -->
+            <input type = "text" id = "firstName" value=""> <!-- insert first name box  -->
+            &nbsp &nbsp &nbsp
+            <input type = "text" id = "lastName" value = "Last Name"> <!-- insert last name box  -->
+            <br>
+            <br>
+            <input type = "text" id = "email" value = "Email address"> <!-- insert email box  -->
+            <br><br>
+            <input type = "text" id = "address" value = "Home address"> <!-- insert address box  -->
+            &nbsp &nbsp &nbsp
+            <input type = "text" id = "phone" value = "Phone number"> <!-- insert phone number box  -->
+            <br><br>
+            <input type = "text" id = "birthday" value = "Birthday"> <!-- insert birthday box  -->
+            <br><br>
+            <p> <button type="submit">Submit Information</button> </p> <!-- submit information button  -->
+            <br><br>
+        </form> <!-- end of form object  -->
+        <h2> My Activity in the App </h2> <!-- my activiyy in the app section -->
+          <br><br>
+          <div class="activity">POINTS: 2</div> <!-- points circle  -->
+          <div class="activity">LEVEL: 10</div> <!-- level circle  -->
+          <div class="activity">OPINIONS: 3</div> <!-- opinions circle  -->
+          <div class="activity">PHOTOS: 5</div> <!-- photos circle  -->
+        </div> <!-- close right box div object  -->
+    </div> <!-- close body div object  -->
+
+    <footer id="footer"> <!-- footer div object  -->
+      <ul>
+        <li class="first"><a>Copyright</a></li> <!-- copyright option  -->
+        <li><a href="https://www.facebook.com">Facebook</a></li> <!-- link to facebook  -->
+        <li><a href="https://www.twitter.com">Twitter</a></li> <!-- link to twitter -->
+      </ul>
+    </footer> <!-- close footer  -->
+
+
+    <script src="jquery-3.2.1.min.js"></script> <!--Link to our JavaScript and Jquery Libraries -->
+    <script src="jquery-ui.js"></script>
+    <script src="script.js"></script>
+
+  </body> <!-- close body  -->
+</html> <!-- end of file  -->
