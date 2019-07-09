@@ -1,7 +1,6 @@
 body{
-  background-color: #b5b8bc;
   text-align: center;
-  background-color: #88e072;
+  background-color: #2b5672;
 }
 
 
@@ -12,37 +11,6 @@ div{
   border-radius: 10px;
 }
 
-div#gallery{
-
-  height: 400px;
-  overflow: hidden;
-}
-div#gallery .slides{
-  display: block;
-  width: 755%;
-  margin: 0;
-  padding: 0;
-}
-#gallery .slide{
-  border: none;
-  float: left;
-  list-style-type: none;
-  width: 13%;
-  padding-left: 1%;
-  height: 350px;
-}
-#belowSet{
-  height: 10%;
-  width: 100%;
-  justify-content: center;
-  border: none;
-  text-align: center;
-  display: flex;
-  margin: 0 auto;
-}
-#galleryDescription{
-  font-size: 16px;
-}
 
 p{
     font-size: 14px;
@@ -60,14 +28,6 @@ header{
   vertical-align: middle;
 }
 
-footer{
-  border: 2px solid #5d5c61;
-  margin: 5px;
-  padding: 5px;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #f7f9fb;
-}
 
 ul{
   list-style-type: none;
@@ -83,28 +43,23 @@ li{
 .first{
   border-left: none;
 }
-
 li a{
   display: block;
 }
-
 ul#ulxx{
   list-style-type: none;
   display: inline-block;
   margin-top: 0;
   float: right;
   border-spacing: 0px 0px;
-   vertical-align: middle;
-
+  vertical-align: middle;
 }
 ul#ulxx li{
   display: inline-block;
-
   border: none;
   width: 16%;
 
 }
-
 li b{
   list-style-type: none;
   display: inline-block;
@@ -113,21 +68,19 @@ li b{
   float: left;
 
 }
-
 #optionsH{
-margin-top: 0;
-margin-bottom: 0;
-line-height: 4;
-padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 4;
+  padding-top: 0;
   border-style: none;
   list-style-type: none;
   position: relative;
   text-align: center;
   width: 70%;
-float: right;
+  float: center;
   display: flex;
   padding-right: 0;
-
 }
 .firstA{
   line-height: 4;
@@ -135,164 +88,4 @@ float: right;
   border-left: none;
   float: left;
   margin-left: 0px
-
-}
-
-
-#body{
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: #8fc1e3;
-  min-height: 300px;
-}
-
-#body2{
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: #8fc1e3;
-  min-height: 300px;
-}
-
-#leftBox{
-  float: left;
-  width: 34%;
-  position: relative;
-  background-color: #f7f9fb;
-}
-
-#rightBox{
-  float: right;
-  width: 66%;
-  position: relative;
-  background-color: #f7f9fb;
-}
-
-#searchEngine{
-  float: left;
-  width: 30%;
-  position: relative;
-  background-color: #f7f9fb;
-}
-
-#gallery{
-  float: right;
-  width: 69%;
-  position: relative;
-  background-color: #f7f9fb;
-}
-
-#bodyLogout{
-  float: left;
-  width: 100%;
-  position: relative;
-  background-color: #f7f9fb;
-}
-
-#firstName
-{
-    width:44%;
-    font-size:14pt;
-}
-
-#lastName
-{
-    width:44%;
-    font-size:14pt;
-}
-
-#email
-{
-    width:91%;
-    font-size:14pt;
-}
-
-#address
-{
-    width:44%;
-    font-size:14pt;
-}
-
-#phone
-{
-    width:44%;
-    font-size:14pt;
-}
-
-#birthday
-{
-    width:91%;
-    font-size:14pt;
-}
-
-#opinions{
-  text-align: left;
-}
-
-#browse{
-  text-align: center;
-  display: inline-block;
-  border: none;
-}
-
-hr {
-    display: block;
-    height: 10px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    border-color: black;
-}
-
-.activity {
-  float: left;
-  width: 215px;
-  height: 215px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  background: #8fc1e3;
-}
-
-.imgOpinion{
-  display: block;
-  width: 30%;
-  padding: 5px;
-  float: left;
-  vertical-align: middle;
-}
-.noborder{
-  border-width: 0px;
-  overflow: hidden;
-}
-.popup {
-    position: relative;
-    display: inline-block;
-}
-
-.popup .actualpopup{
-  visibility: hidden;
-  width: 50%;
-  background color: #000;
-  color: #fff;
-  text-align: center
-  padding: 10px 0;
-  position: absolute;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-.popup .display{
-  visibility: visible;
-}
-
-.block{
-}
-
-h5{
-  display: block;
-  overflow: hidden;
 }
