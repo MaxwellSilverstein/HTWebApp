@@ -160,12 +160,12 @@ function storeValues(form){ //this form puts the values in the cookie when you r
   var count = 0; //sets the base
   var add = true;
     while (count<1000){
-    if (regForm.email.value === getCookie('email'+count)){ //If email already exists.
+    if (regForm.username.value === getCookie('username'+count)){ //If email already exists.
       alert('You are already registered');
       add = false; //Do not add new cookie because it already exists
       break;
       }
-    if (getCookie('email'+count) === ""){ //Add cookie in first empty slot
+    if (getCookie('username'+count) === ""){ //Add cookie in first empty slot
       break;
     }
       count++; //Iterate up, we haven't found a blank spot, nor a matching cookie.
