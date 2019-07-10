@@ -7,6 +7,7 @@ $('#getDataSet').html("<b>wow</b>");
 var tempListFiles = [];
 var fileElem = document.getElementById("files");
 var getDat = document.getElementById('getDataSet');
+var displayFile = document.getElementById('displayFileNames');
 var count =0;
 /*getDat.onclick = function(){
 
@@ -22,7 +23,11 @@ function UploadToCloud(){
     if(tempListFiles[i]!=null){
       alert(tempListFiles[i].name)
     }
+
   }
+  tempListFiles = [];
+  $('#displayFileNames').html('')
+  count = 0
 }
 
 
