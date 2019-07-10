@@ -1,6 +1,7 @@
 body{
   text-align: center;
   background-color: #2b5672;
+  font-family: sans-serif;
 }
 
 
@@ -10,8 +11,6 @@ div{
   padding: 5px;
   border-radius: 10px;
 }
-
-
 p{
     font-size: 14px;
 }
@@ -27,39 +26,12 @@ header{
   overflow: hidden;
   vertical-align: middle;
 }
-
-
-ul{
-  list-style-type: none;
-  text-align: center;
-  width: 99%;
-  padding: 0px;
-}
 li{
   float: left;
   width: 20%;
   border-left: solid;
 }
-.first{
-  border-left: none;
-}
-li a{
-  display: block;
-}
-ul#ulxx{
-  list-style-type: none;
-  display: inline-block;
-  margin-top: 0;
-  float: right;
-  border-spacing: 0px 0px;
-  vertical-align: middle;
-}
-ul#ulxx li{
-  display: inline-block;
-  border: none;
-  width: 16%;
 
-}
 li b{
   list-style-type: none;
   display: inline-block;
@@ -88,4 +60,13 @@ li b{
   border-left: none;
   float: left;
   margin-left: 0px
+}
+#infoForm{
+  font-size: 20px
+}
+#files{
+  font-size: 20px
+}
+#fileupload{
+  font-size: 20px
 }
